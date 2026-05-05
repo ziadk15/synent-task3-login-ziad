@@ -9,7 +9,10 @@ body {
     background: #f3f4f6;
 }
 
-
+/* DARK MODE */
+body.dark {
+    background: #0f172a;
+}
 
 .container {
     display: flex;
@@ -30,7 +33,10 @@ body {
     animation: fadeIn 0.6s ease;
 }
 
-
+body.dark .login-box {
+    background: #1e293b;
+    color: white;
+}
 
 @keyframes fadeIn {
     from {
@@ -49,6 +55,9 @@ body {
     margin-bottom: 20px;
 }
 
+body.dark .subtitle {
+    color: #bbb;
+}
 
 /* INPUT */
 .input-group {
@@ -80,7 +89,11 @@ body {
     outline: none;
 }
 
-
+body.dark .input-group input {
+    background: #334155;
+    border: 1px solid #475569;
+    color: white;
+}
 
 .input-group input:focus {
     border-color: #6366f1;
@@ -139,5 +152,14 @@ button:active {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
+body.dark .theme-toggle {
+    background: #1e293b;
+    color: white;
+}
 
-
+/* MOBILE */
+@media (max-width: 400px) {
+    .login-box {
+        padding: 25px;
+    }
+}
