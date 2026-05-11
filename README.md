@@ -1,15 +1,15 @@
-# 🔐 Login System
+#  Login System
 
 A simple and responsive login system built using HTML, CSS, and JavaScript.
 
-## 🚀 Features
+##  Features
 
 * Responsive UI
 * Dark Mode
 * Password Toggle
 * Basic Validation
 
-## 🛠️ Technologies
+##  Technologies
 
 * HTML
 * CSS
